@@ -1,14 +1,31 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar color="primary">
+        <ion-title>
+            Happy Birthday
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-content class="container">
+    <ion-tabs>
+        <ion-tab-bar slot="bottom" class="bottomTab">
+            <ion-tab-button tab="#" class="bottomTab">
+                <ion-icon name="ios-arrow-back" class="tabIcon"></ion-icon>
+                <ion-label>Back</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button tab="#" class="bottomTab">
+                <ion-icon name="ios-radio-button-off" class="tabIcon"></ion-icon>
+                <ion-label>Home</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button tab="#" class="bottomTab">
+                <ion-icon name="ios-square-outline" class="tabIcon"></ion-icon>
+                <ion-label>menu</ion-label>
+            </ion-tab-button>
+
+        </ion-tab-bar>
+    </ion-tabs>
+    <p class="topP">Happy Birthday Scott</p>
+    <p class="bottomP">From Tom</p>
 </ion-content>

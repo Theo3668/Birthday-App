@@ -1,1 +1,31 @@
+// content
+.container {
+    --background: url("/assets/images/bd1.jpeg") 0 0/100% 100% no-repeat;
+}
 
+// Bottom Tab
+.bottomTab {
+    background-color: black;
+}
+
+.tabIcon {
+    color: white;
+}
+
+// tom and bottom paragraphs
+.bottomP {
+    bottom: 10%;
+    position: absolute;
+    right: 1%;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topP {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif
+}
